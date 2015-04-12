@@ -122,10 +122,11 @@ a {
 .flex-box {
   display: -webkit-flex;
   display: flex;
-  flex-direction: row;
+  flex-direction: column; /* Changed it to column from row*/
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 10px;
+  margin-left: 4.2%; /* Added by Andrew to align the skills*/
 }
 
 .center-content {
