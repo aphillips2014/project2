@@ -198,7 +198,7 @@ displayContent = function() {
 	education.display();
 
 	$("#main").append(internationalizeButton);
-	$("#main").append(uninternationalizeButton);
+	//$("#main").append(uninternationalizeButton);
 	$("#mapDiv").append(googleMap);
 
 };	
